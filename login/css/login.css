@@ -1,0 +1,168 @@
+body{
+    background-color: #ffff;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container-login{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 400px;
+    padding: 20px 30px;
+    margin-top: 5vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border: 2px #323232 ;
+    padding: 10px;
+    margin-bottom: 20px ;
+    box-shadow: 2px 2px 2px white;
+}
+
+input:focus {
+    border-bottom: #08558b;
+
+}
+
+#esqueceu  {
+
+    margin-bottom: 10px;
+    margin-left: 60%;
+   
+    
+}
+
+ 
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #08558b;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s ;
+    
+}
+
+
+input[type="submit"]:hover {
+    background-color: #011420;
+    transition: .5s;
+    box-shadow: 0 0 5px #011420,
+    0 0 25px #011420,
+    0 0 50px #011420,
+    0 0 100px #011420;
+
+}
+
+input#nomes , input#senha {
+    border-radius: 10px;
+}
+
+div#registro p {
+margin-bottom: 10px;
+text-align: center;
+margin-right: 17% ;
+margin-left: 3%;
+
+
+}
+
+div#registro a {
+font-size: 20px;
+}
+
+div#registro a:hover {
+      
+    font-size: 22.5px;
+    transition: 1s;
+    border-radius: 20px;
+   
+    background-color: transparent;
+    box-shadow: 0 0 5px #08558b,
+    0 0 25px #08558b,
+    0 0 50px #08558b,
+    0 0 100px #08558b;
+   
+}
+
+
+button#btn-login {
+    position: relative;
+    display: inline-block;
+    padding: 10px 100px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #08558b;
+    opacity: .7;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0) ;
+   
+    
+    
+    
+
+}
+
+button#btn-login:hover {
+    background: #fff;
+    color: #08558b;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(193, 192, 209),
+                0 0 25px rgb(110, 109, 150),
+                0 0 50px rgb(47, 37, 105),
+                0 0 100px rgb(39, 3, 167);
+
+} 
+
+button#btn-login span {
+    position: absolute;
+    display: block;
+}
+
+
+div.liberacao #recado{
+               
+    text-align: left;
+    color: rgb(119, 34, 34);
+                
+            
+            
+} 
